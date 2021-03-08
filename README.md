@@ -11,15 +11,15 @@
 <h3> Random Forest Model Summary of findings </h3>
 
 ### Random Forest Model Average Error Degrees with Tuning	
-Y-Output	precision	recall	f1-score   	support
-Candidate	    0.61		0.38	0.47		411
-Confirmed	    0.81		0.71	0.76		484
-False Positive	0.84		0.81	0.82	    853
+<ul> Micro AVG </ul>
+<li> precision: 0.79 </li>
+<li> recall: 0.68 </li>
+<li> f1-score: 0.73 </li>
 
-Micro AVG	    0.79		0.68	0.73		1748
-Macro AVG	    0.75		0.64	0.69		1748
-Weighted AVG	0.78		0.68	0.72		1748
-Samples AVG	    0.68		0.68	0.68		1748
+<ul> Macro AVG </ul>
+<li> precision: 0.75 </li>
+<li> recall: 0.64 </li>
+<li> f1-score: 0.69 </li>
 
 
 ### Top 5 Most Important Features to Predict hidden planets 
