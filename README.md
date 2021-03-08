@@ -1,26 +1,37 @@
 <h1> Machine-Learning-Challenge:  Exoplanet Exploration </h1>
 <h3> Gary Jeter </h3></br>
 
-<p>Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.</p>
-<p> In this challenge, I created two models - a Random Forest Model and a Neural Network Model, and used fine tuning technics to optimize the models</p>
+<p>Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. </p>
+<p> In this challenge, I created two models - a Random Forest Model and a Neural Network Model, and used fine tuning technics to optimize the models. </p>
 <p> The Random Forest model was the better predictor of the Kepler telescope planet discovery - Confirmed, False Positive or Candidate. Sixteen variables are used in both models to predict the sighting disposition. </p>
+<p> Neither of my models are good enough to predict definitely new exoplanets, but it does help identify which ones to investigate further.  Using data from other telescopes across the globe would help strengthen the models. </p>  
 
 </br>
 
 <h3> Random Forest Model Summary of findings </h3>
 
-                precision    recall  f1-score   support
+### Random Forest Model Average Error Degrees with Tuning	
+Y-Output	precision	recall	f1-score   	support
+Candidate	    0.61		0.38	0.47		411
+Confirmed	    0.81		0.71	0.76		484
+False Positive	0.84		0.81	0.82	    853
 
-     CANDIDATE       0.59      0.51      0.55       411
-     CONFIRMED       0.78      0.81      0.79       484
-FALSE POSITIVE       0.80      0.84      0.82       853
+Micro AVG	    0.79		0.68	0.73		1748
+Macro AVG	    0.75		0.64	0.69		1748
+Weighted AVG	0.78		0.68	0.72		1748
+Samples AVG	    0.68		0.68	0.68		1748
 
-      accuracy                           0.75      1748
-     macro avg       0.72      0.72      0.72      1748
-  weighted avg       0.75      0.75      0.75      1748
 
-<h3> Neural Network Model Summary of Findings </h3>
+### Top 5 Most Important Features to Predict hidden planets 
+ * (0.1454, 'koi_insol'),
+ * (0.1180, 'koi_depth'),
+ * (0.0830, 'koi_disposition'),
+ * (0.0816, 'koi_time0bk'),
+ * (0.0792, 'koi_duration'),
+ * (0.0680, 'koi_impact'),
+ 
+<h3> Neutral Network Model Summary of findings </h3>
 
-1748/1748 - 0s - loss: 0.6009 - accuracy: 0.7489
-Loss: 0.6009191288282452, Accuracy: 0.7488558292388916
+* Accuracy: 0.7414
+* Loss: 0.6197
 
