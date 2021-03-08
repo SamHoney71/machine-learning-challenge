@@ -8,21 +8,21 @@
 
 </br>
 
-<h3> Random Forest Model Summary of findings </h3>
+# Random Forest Model Summary of findings
 
-### Random Forest Model Average Error Degrees with Tuning	
-<ul> Micro AVG </ul>
+## Random Forest Model Average Error Degrees with Tuning	
+### Micro AVG
 <li> precision: 0.79 </li>
 <li> recall: 0.68 </li>
 <li> f1-score: 0.73 </li>
 
-<ul> Macro AVG </ul>
+### Macro AVG 
 <li> precision: 0.75 </li>
 <li> recall: 0.64 </li>
 <li> f1-score: 0.69 </li>
 
 
-### Top 5 Most Important Features to Predict hidden planets 
+## Top 5 Most Important Features to Predict hidden planets 
  * (0.1454, 'koi_insol'),
  * (0.1180, 'koi_depth'),
  * (0.0830, 'koi_disposition'),
@@ -30,7 +30,7 @@
  * (0.0792, 'koi_duration'),
  * (0.0680, 'koi_impact'),
  
-<h3> Neutral Network Model Summary of findings </h3>
+# Neutral Network Model Summary of findings
 
 * Accuracy: 0.7414
 * Loss: 0.6197
