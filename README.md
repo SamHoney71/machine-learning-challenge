@@ -35,3 +35,4 @@
 * Accuracy: 0.7414
 * Loss: 0.6197
 
+Acknowledge:  I used hypertuning code from this website: https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
